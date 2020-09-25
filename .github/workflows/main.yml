@@ -29,11 +29,12 @@ jobs:
         version: 1.3
         # Display InteractiveUtils.versioninfo() after installing
         show-versioninfo: true # optional, default is false
-    #pkg"registry add https://github.com/JuliaMolSim/MolSim.git"
-    #pkg"registry add https://github.com/DescriptorZoo/DescriptorReg.git"
     - run: |
         using InteractiveUtils; versioninfo()
         using Pkg
         pkg"activate ."
+        pkg"registry add https://github.com/JuliaRegistries/General.git"
+        pkg"registry add https://github.com/JuliaMolSim/MolSim.git"
+        pkg"registry add https://github.com/DescriptorZoo/DescriptorReg.git"
         pkg"test DescriptorZoo"
       shell: bash -c "julia --color=yes --project {0}"
