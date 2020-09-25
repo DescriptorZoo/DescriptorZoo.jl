@@ -1,0 +1,21 @@
+name = "DescriptorZoo"
+uuid = "c2b516e9-892e-46cd-9b98-1bc27c4badb2"
+authors = ["onatberk "]
+version = "0.1.0"
+
+[deps]
+AMP = "8c5b52c7-7933-4e29-b3e0-9d1a7d7165c4"
+ASE = "51974c44-a7ed-5088-b8be-3e78c8ba416c"
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+CHSF = "cb5341de-5fb8-11ea-0ad4-91a81b4b8b32"
+DScribe = "fc698248-5163-421b-9ee2-8b62db393dc1"
+JuLIP = "945c410c-986d-556a-acb1-167a618e0462"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MBTR = "9eff7b03-5cd4-4856-9b32-92c85ebe06b9"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+QUIP = "5b5851ca-98f8-4ad3-91b3-e58310a75415"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+SHIPs = "07029e18-8f70-11e9-35ce-2d4df590abdc"
+SOAPlite = "fad40735-9ed7-43f8-a6f6-f9b1a0963de7"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
