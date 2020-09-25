@@ -13,7 +13,7 @@ using Reexport
 
 @reexport using SHIPs
 
-@reexport using QUIP
+#@reexport using QUIP
 
 @reexport using SOAPlite
 
