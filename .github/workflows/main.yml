@@ -32,6 +32,16 @@ jobs:
         pip install -U git+https://bitbucket.org/andrewpeterson/amp
         pip install -U soaplite
         pip install -U dscribe
+        pip install -U numpy scipy pytest sympy
+        git clone https://gitlab.com/qmml/qmmlpack.git
+        gawk '{gsub(/res = run\(\[file_cpp_test_exe/,"res = \"\" #res = run([file_cpp_test_exe");};1' qmmlpack/make > qmmlpack/new_make
+        cd qmmlpack
+        chmod 700 new_make
+        ./new_make -v --debug --cpp-compiler g++ --blas-lapack gsl --include-path="/usr/include/gsl" --library-path="/usr/lib" cpp
+        ./new_make -v --debug --cpp-compiler g++ --blas-lapack gsl --include-path="/usr/include/gsl" --library-path="/usr/lib" python
+        sudo ./new_make -v install
+        cd ${{ github.workspace }}
+        export PYTHONPATH="/usr/local/qmmlpack/python:$PYTHONPATH"
     # Setup Julia environment
     - name: Setup Julia environment
       uses: julia-actions/setup-julia@latest
