@@ -64,4 +64,4 @@ jobs:
         pkg"registry add https://github.com/JuliaMolSim/MolSim.git"
         pkg"registry add https://github.com/DescriptorZoo/DescriptorReg.git"
         pkg"test DescriptorZoo"
-      shell: bash -c "julia --color=yes --project {0}"
+      shell: bash -c "PYTHONPATH=/usr/local/qmmlpack/python:$PYTHONPATH julia --color=yes --project {0}"
