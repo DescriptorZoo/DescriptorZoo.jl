@@ -31,5 +31,8 @@ jobs:
         show-versioninfo: true # optional, default is false
     - run: |
         using InteractiveUtils; versioninfo()
-        using Pkg; Pkg.activate("."); pkg"registry add https://github.com/DescriptorZoo/DescriptorReg.git"; Pkg.test("DescriptorZoo")
+        using Pkg
+        pkg"activate ."
+        pkg"registry add https://github.com/DescriptorZoo/DescriptorReg.git"
+        pkg"test DescriptorZoo"
       shell: bash -c "julia --color=yes --project {0}"
