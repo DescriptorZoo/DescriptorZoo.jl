@@ -31,5 +31,5 @@ jobs:
         show-versioninfo: true # optional, default is false
     - run: |
         using InteractiveUtils; versioninfo()
-        using Pkg; Pkg.activate("."); Pkg.test("DescriptorZoo")
+        using Pkg; Pkg.activate("."); Pkg.instantiate(); Pkg.test("DescriptorZoo")
       shell: bash -c "julia --color=yes --project {0}"
