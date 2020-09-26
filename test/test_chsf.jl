@@ -1,4 +1,5 @@
 @testset "Testing CHSF Descriptor for dc Si" begin
+@info("Testing CHSF Descriptor for dc Si.")
 using DescriptorZoo, JuLIP, Test
 
 at = bulk(:Si, cubic=true)

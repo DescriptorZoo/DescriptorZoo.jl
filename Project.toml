@@ -1,7 +1,7 @@
 name = "DescriptorZoo"
 uuid = "c2b516e9-892e-46cd-9b98-1bc27c4badb2"
 authors = ["Berk Onat B.Onat@warwick.ac.uk"]
-version = "0.1.1"
+version = "0.1.2"
 
 [deps]
 ACSF = "d2bdc3a2-1f09-4d6b-8406-1d3d6d420f84"

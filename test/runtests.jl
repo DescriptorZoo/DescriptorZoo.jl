@@ -10,6 +10,6 @@ using JuLIP, JuLIP.Testing
     include("test_mbtr.jl")
     include("test_soaplite.jl")
     include("test_dscribe_soap.jl")
-    include("test_dscribe_acsf.jl")
+    #include("test_dscribe_acsf.jl")
 end
 

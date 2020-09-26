@@ -1,4 +1,5 @@
 @testset "Testing MBTR Representation with dc Si" begin
+@info("Testing MBTR Representation for dc Si.")
 using DescriptorZoo, JuLIP, Test
 
 at = bulk(:Si, cubic=true)
