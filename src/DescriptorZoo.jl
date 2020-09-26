@@ -5,7 +5,7 @@ using JuLIP
 
 using Reexport
 
-#@reexport using ACSF
+@reexport using ACSF
 
 @reexport using AMP
 

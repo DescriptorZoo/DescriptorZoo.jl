@@ -1,9 +1,10 @@
 name = "DescriptorZoo"
 uuid = "c2b516e9-892e-46cd-9b98-1bc27c4badb2"
-authors = ["onatberk "]
-version = "0.1.0"
+authors = ["Berk Onat B.Onat@warwick.ac.uk"]
+version = "0.1.1"
 
 [deps]
+ACSF = "d2bdc3a2-1f09-4d6b-8406-1d3d6d420f84"
 AMP = "8c5b52c7-7933-4e29-b3e0-9d1a7d7165c4"
 ASE = "51974c44-a7ed-5088-b8be-3e78c8ba416c"
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
