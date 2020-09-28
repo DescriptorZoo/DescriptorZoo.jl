@@ -11,14 +11,15 @@ Julia packages:
 - [PyCall.jl](https://github.com/JuliaPy/PyCall.jl)
 - [ASE.jl](https://github.com/JuliaMolSim/ASE.jl)
 
-Julia descriptor codes and wrappers:
-- [ACSF.jl](https://github.com/DescriptorZoo/ACSF.jl.git)
-- [CHSF.jl](https://github.com/DescriptorZoo/CHSF.jl.git)
-- [QUIP.jl](https://github.com/DescriptorZoo/QUIP.jl.git)
-- [AMP.jl](https://github.com/DescriptorZoo/AMP.jl.git)
-- [SOAPlite.jl](https://github.com/DescriptorZoo/SOAPlite.jl.git)
-- [DScribe.jl](https://github.com/DescriptorZoo/DScribe.jl.git)
-- [MBTR.jl](https://github.com/DescriptorZoo/MBTR.jl.git)
+Dependent and supported descriptor codes:
+- [ACE.jl](https://github.com/ACEsuit/ACE.jl) Atom Cluster Expansion
+- [ACSF.jl](https://github.com/DescriptorZoo/ACSF.jl.git) Atom Centred Symmetry Functions
+- [CHSF.jl](https://github.com/DescriptorZoo/CHSF.jl.git) Chebyshev Polynomial variant of Atom Centred Symmetry Functions
+- [QUIP.jl](https://github.com/DescriptorZoo/QUIP.jl.git) SOAP descriptor
+- [AMP.jl](https://github.com/DescriptorZoo/AMP.jl.git) Atom Centred Symmetry Functions
+- [SOAPlite.jl](https://github.com/DescriptorZoo/SOAPlite.jl.git) SOAPlite descriptor
+- [DScribe.jl](https://github.com/DescriptorZoo/DScribe.jl.git) SOAPlite descriptor
+- [MBTR.jl](https://github.com/DescriptorZoo/MBTR.jl.git) Many-Body Tensor Representation
 
 Underlying Python codes for descriptors:
 - [QUIPPY, QUIP and GAP](https://libatoms.github.io/GAP/installation.html)
