@@ -18,7 +18,7 @@ Dependent and supported descriptor codes:
 - [QUIP.jl](https://github.com/DescriptorZoo/QUIP.jl.git) SOAP descriptor
 - [AMP.jl](https://github.com/DescriptorZoo/AMP.jl.git) Atom Centred Symmetry Functions
 - [SOAPlite.jl](https://github.com/DescriptorZoo/SOAPlite.jl.git) SOAPlite descriptor
-- [DScribe.jl](https://github.com/DescriptorZoo/DScribe.jl.git) SOAPlite descriptor
+- [DScribe.jl](https://github.com/DescriptorZoo/DScribe.jl.git) SOAP variants, MBTR and ACSF descriptors
 - [MBTR.jl](https://github.com/DescriptorZoo/MBTR.jl.git) Many-Body Tensor Representation
 
 Underlying Python codes for descriptors:
